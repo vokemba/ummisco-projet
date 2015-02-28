@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ummisco-ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ummisco-contrat.jar" deploy-path="/lib" handle="module:/resource/ummisco-contrat/ummisco-contrat">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ummisco-dao.jar" deploy-path="/" handle="module:/resource/ummisco-dao/ummisco-dao">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ummisco-service.jar" deploy-path="/" handle="module:/resource/ummisco-service/ummisco-service">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ummisco-report.jar" deploy-path="/" handle="module:/resource/ummisco-report/ummisco-report">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
