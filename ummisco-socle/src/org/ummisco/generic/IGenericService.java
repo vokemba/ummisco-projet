@@ -68,6 +68,7 @@ public interface IGenericService<T extends BaseEntity> extends IGenericDao<T> {
 	 * @param entitemodifier
 	 * @return
 	 * @throws UmmiscoExeption
+	 * 
 	 * Permet de rechercher des entités de la base de données obeissant aux critères 
 	 * de recherche
 	 */
