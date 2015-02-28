@@ -44,7 +44,7 @@ public abstract class GenericDao <T extends BaseEntity> implements IGenericDao<T
 
 	@Override
 	public T modifier(T entite) throws UmmiscoExeption {
-		
+		//Taches aimé
 		return null;
 	}
 
